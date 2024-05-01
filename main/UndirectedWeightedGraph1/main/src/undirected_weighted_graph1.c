@@ -160,7 +160,7 @@ bool UndirectedWeightedGraph1_is_full(void *uwg) {
 
 bool UndirectedWeightedGraph1_insert_vertex(UndirectedWeightedGraph1 *uwg, void *data) {
     if (anyThrows(
-            4,
+            3,
             ExceptionHandler_is_null("UndirectedWeightedGraph1_insert_vertex", "Undirected Weighted Graph", (void *) uwg, __SUPPRESS_PRINT_ERROR__),
             ExceptionHandler_is_null("UndirectedWeightedGraph1_insert_vertex", "Data", data, __SUPPRESS_PRINT_ERROR__),
             ExceptionHandler_is_full("UndirectedWeightedGraph1_insert_vertex", "Undirected Weighted Graph", (void *) uwg, UndirectedWeightedGraph1_is_full, __SUPPRESS_PRINT_ERROR__)

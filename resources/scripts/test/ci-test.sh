@@ -6,7 +6,6 @@ HELPERS=(
 ExceptionHandler
 Node
 Vertex
-Edge
 ) #--H
 
 DS=(
@@ -20,7 +19,6 @@ StaticQueue
 DynamicQueue
 Matrix
 UndirectedWeightedGraph1
-UndirectedWeightedGraph2
 ) #--DS
 
 function _title_case_to_snake_case() {
